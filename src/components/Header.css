@@ -1,0 +1,10 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .header{
+    padding: 1rem;
+    background-color: white;
+    height: 5rem;
+  }
