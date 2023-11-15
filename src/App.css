@@ -1,6 +1,14 @@
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+    --bg-tile: url('./assets/bg.png');
+    --color-text-primary: black;
+    --color-text-secondary: rgb(50,50,50);
+    --color-text-tertiary: gray;
+    --color-bg-primary: rgb(255, 255, 255);
+    --color-bg-secondary: rgb(238, 238, 238);
+    --color-link: rgb(50,100,255);
+    --color-link-hover: rgb(0,150,255);
 }
 
 .main-body{
@@ -13,6 +21,35 @@
   color:black;
   background-color: white;
   height: 5rem;
+}
+
+
+.container{
+  border-radius: 1rem;
+}
+.text-main{
+  color: var(--color-text-primary);
+}
+.text-sub{
+  color: var(--color-text-secondary);
+}
+.text-minor{
+  color: var(--color-text-tertiary);
+}
+.bg-main{
+  background-color: var(--color-bg-primary);
+}
+.bg-sub{
+  background-color: var(--color-bg-secondary);
+}
+.bg-image{
+  background-image: var(--bg-tile);
+  background-repeat:repeat;
+}
+
+.width-large{
+  display: block;
+  width: 1rem;
 }
 
 /* Dropdown menu */

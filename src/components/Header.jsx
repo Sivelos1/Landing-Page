@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
-import Dropdown from './Dropdown.jsx'
+import Dropdown from './Dropdown'
 
 function Header() {
   
