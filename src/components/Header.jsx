@@ -1,17 +1,23 @@
 import { useState } from 'react';
 import './Header.css';
+import Dropdown from './Dropdown.jsx'
 
 function Header() {
   
-  return 
-    <div className='header'>
-        <div>
-            Sivelos
+  return (
+    <div className='header bg-light d-flex justify-content-between align-items-center'>
+        <a><h1>Sivelos</h1></a>
+        <div className=''>
+          <Dropdown text = 'please' choices = {[
+            {text:"Choice 1", type: "link", link: "#"}, 
+            {text:"Choice 2", onClick: function(){
+              console.log("hello world")
+            }}, 
+            {text:"Choice 3", onClick: function(){}}]}/>
+          <a>Contact Me</a>
         </div>
-        <div>
-            
-        </div>
-    </div>
+        
+    </div>)
 }
 
 export default Header;

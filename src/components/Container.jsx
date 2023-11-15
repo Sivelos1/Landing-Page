@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -26,8 +23,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main className="mx-3">{renderPage()}</main>
+      <main className="mx-3 d-flex p-5 justify-content-center">{renderPage()}</main>
     </div>
   );
 }
