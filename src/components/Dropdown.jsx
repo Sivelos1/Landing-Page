@@ -5,7 +5,7 @@ function Dropdown(props) {
   const [input, setInput] = useState('');
   return (<div className="dropdown">
         <button className={`dropbtn`}>
-            {props.text || ''}
+            {(props.text || '') + 'v'}
             <ion-icon name={props.icon || ''}></ion-icon>
         </button>
         <div className="dropdown-content">

@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import './Header.css';
+import '../App.css';
 import Dropdown from './Dropdown'
 
 function Header() {
   
   return (
-    <div className='header bg-light d-flex justify-content-between align-items-center'>
+    <div className='header color-bg-container d-flex justify-content-between align-items-center'>
         <a><h1>Sivelos</h1></a>
         <div className=''>
           <Dropdown text = 'please' choices = {[

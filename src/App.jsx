@@ -4,7 +4,7 @@ import Container from './components/Container.jsx'
 
 function App() {
   return (
-    <div className='main-body bg-image'>
+    <div className='main-body'>
       <Header />
       <Container />
     </div>
