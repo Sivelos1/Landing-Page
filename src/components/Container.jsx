@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <main className="mx-3 d-flex p-5 justify-content-center">{renderPage()}</main>
+      <main className="main-body">{renderPage()}</main>
     </div>
   );
 }

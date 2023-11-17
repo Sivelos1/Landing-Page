@@ -2,10 +2,10 @@ import { useState } from 'react';
 import '../App.css';
 import Dropdown from './Dropdown'
 
-function Header() {
+function Footer() {
   
   return (
-    <div className='header color-bg-container d-flex justify-content-between align-items-center'>
+    <div className='footer color-bg-container d-flex justify-content-between align-items-center'>
         <a><h1>Sivelos</h1></a>
         <div className='header-navigation'>
           <a className='header-navigation'>About Me</a>
@@ -17,4 +17,4 @@ function Header() {
     </div>)
 }
 
-export default Header;
+export default Footer;

@@ -17,9 +17,17 @@
 .main-body{
   width: 100%;
   height: 100%;
-  bottom:0px;
+  overflow-y: scroll;
 }
 .header{
+  padding: 1rem;
+  color:black;
+  background-color: white;
+  height: 5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.footer{
+  bottom: 0px;
   padding: 1rem;
   color:black;
   background-color: white;
@@ -68,9 +76,161 @@
   background-repeat:repeat;
 }
 
-.width-large{
-  display: block;
-  width: 1rem;
+.header-navigation{
+  padding:1rem;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-content-start {
+  align-content: flex-start;
+}
+
+.align-content-stretch {
+  align-content: stretch;
+}
+
+.align-content-end {
+  align-content: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+[class*='col-'] {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-auto {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.col-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+
+.col-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.col-5 {
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+
+.col-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+
+.col-11 {
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 /* Dropdown menu */
