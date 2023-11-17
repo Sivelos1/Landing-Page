@@ -5,9 +5,12 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className='main-body'>
+    <div >
       <Header />
-      <Container />
+      <div className='main-body'>
+
+        <Container />
+      </div>
       <Footer />
     </div>
   );
