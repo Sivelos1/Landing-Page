@@ -12,7 +12,7 @@ function App() {
   return (
     <div >
       <Header handlePageChange = {handlePageChange}/>
-      <div className='main-body'>
+      <div>
         <Container currentPage = {currentPage}/>
       </div>
       <Footer />
