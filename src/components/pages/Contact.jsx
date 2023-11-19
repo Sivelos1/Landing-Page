@@ -49,7 +49,6 @@ export default function Contact() {
     <div className='col-12'>
       <div className='container-l bg-main text-main p-5'>
         {renderPage(sentMessage)}
-        
       </div>
     </div>
   );

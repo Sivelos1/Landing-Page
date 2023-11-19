@@ -91,6 +91,11 @@
   width: calc(var(--icon-size-radius)*2);
 }
 
+.about-me-portrait img{
+  height:25rem;
+  border-radius: 1rem;
+}
+
 .color-bg-container{
   background-color: var(--color-bg-secondary);
 }
