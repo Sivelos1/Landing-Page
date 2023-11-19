@@ -46,10 +46,20 @@ stunning levels and new game mechanics
 reputation among modding community</li>
             </ul>
         </div>
+        
+        <h2>Education</h2>
         <div className='p-2'>
-
+            <h5><strong>Certification in Full-Stack Flex Development</strong></h5>
+            <div className='text-minor'>Rutgers University - Remote</div>
+            <div className='text-minor'>June 2023 to December 2023</div>
+            
         </div>
-
+        <div className='p-2'>
+            <h5><strong>Bachelor's Degree in Game Design</strong></h5>
+            <div className='text-minor'>Columbia College Chicago</div>
+            <div className='text-minor'>September 2017 to May 2021</div>
+            
+        </div>
       </div>
     </div>
   );
