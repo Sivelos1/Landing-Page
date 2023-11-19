@@ -66,6 +66,39 @@
   width:50rem;
 }
 
+.portfolio-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-container{
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  overflow: hidden;
+  width: 25rem;
+  height: 25rem;
+}
+.project-container a {
+  
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+.project-thumbnail{
+  overflow: hidden;
+  height:20rem;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.project-thumbnail img{
+  height:100%;
+}
+
 [class*='container-'] {
   
   border-radius: 1rem;
